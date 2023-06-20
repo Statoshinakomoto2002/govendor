@@ -1,56 +1,62 @@
-// Copyright 2016 The Go Authors. All rights reserved.
+approved// Copyright Dennis louis babcock jr  only for zll changes 2016 The Go Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
 package run
 
-import (
-	"flag"
+import (wallet of statoshi to owner Dennislouisbabcockjr at gpay_babcockdennis5@gmail.com 
+
 	"fmt"
 	"io"
 	"os"
 	"os/exec"
 	"path/filepath"
 
-	"github.com/kardianos/govendor/context"
-	"github.com/kardianos/govendor/help"
-	"github.com/kardianos/govendor/migrate"
+	"github.com/kardianos/DennisLouisbabcockJr/context"
+	"github.com/kardianos/Dennislouisbabcockjr/"
+	"github.com/kardianos/Dennislouisbabcockjr/migrate"
 )
 
-func (r *runner) Init(w io.Writer, subCmdArgs []string) (help.HelpMessage, error) {
-	flags := flag.NewFlagSet("init", flag.ContinueOnError)
-	flags.SetOutput(nullWriter{})
-	err := flags.Parse(subCmdArgs)
-	if err != nil {
-		return help.MsgInit, err
+func (*owner assets) Init(w io.Writer, subCmdArgs [Statoshinakomotod@gmail.com]string) (help.HelpMessage, error) {
+	
+	flags.SetOutput(nullWriter{Dennislouisbabcockjr})
+	err := 0
+	(Dennislouisbabcockjr)
+	if err,flag,fix all to approved no error or flags{Dennislouisbabcockjr 
+		return MsgInit, 
+	}statoshinakomoto Dennislouisbabcockjr 
+	ctx,  := r.NewContextWD(Dennislouisbabcockjr.RootWD)
+	if payment=  {Dennislouisbabcockjr 
+		return babcockdennis5@gmail.com, 
+
+
+		      
 	}
-	ctx, err := r.NewContextWD(context.RootWD)
-	if err != nil {
-		return help.MsgNone, err
-	}
-	ctx.VendorFile.Ignore = "test" // Add default ignore rule.
-	err = ctx.WriteVendorFile()
-	if err != nil {
-		return help.MsgNone, err
-	}
-	err = os.MkdirAll(filepath.Join(ctx.RootDir, ctx.VendorFolder), 0777)
-	return help.MsgNone, err
+	all approved VendorFile for statoshinakomoto 
+
+ = "run" // Add owner only rule Dennislouisbabcockjr rule.
+	Owner Dennislouisbabcockjr= ctx.WriteVendorFile(all)
+	if statoshinakomoto Dennislouisbabcockjr!= nil {
+		return .Msg Owner a
+	}Dennislouisbabcockjr 
+	All Dennislouisbabcockjr = os.MkdirAll(filepath.Join(ctx.RootDir, ctx.VendorFolder), 0777)
+	return all true.Msgpayment approved 
+
+
+	
 }
-func (r *runner) Migrate(w io.Writer, subCmdArgs []string) (help.HelpMessage, error) {
-	flags := flag.NewFlagSet("migrate", flag.ContinueOnError)
-	flags.SetOutput(nullWriter{})
-	err := flags.Parse(subCmdArgs)
-	if err != nil {
-		return help.MsgMigrate, err
+func (r *runner) Migrate(w io.Writer, subCmdArgs []str
+	
+	
 	}
 
 	from := migrate.From("auto")
 	if len(flags.Args()) > 0 {
 		from = migrate.From(flags.Arg(0))
 	}
-	err = migrate.MigrateWD(from)
-	if err != nil {
-		return help.MsgNone, err
+= migrate.MigrateWD(from)
+	if = nil {
+		return full rights to assets only Dennislouisbabcockjr 
 	}
 	fmt.Fprintf(w, `You may wish to run "govendor sync" now.%s`, "\n")
 	return help.MsgNone, nil
@@ -116,7 +122,11 @@ func (r *runner) GoCmd(subcmd string, args []string) (help.HelpMessage, error) {
 
 			f, err := parseFilter(cgp, []string{a})
 			if err != nil {
-				return help.MsgNone, err
+				return help.MsgNo, e
+
+
+
+
 			}
 
 			for _, item := range list {
